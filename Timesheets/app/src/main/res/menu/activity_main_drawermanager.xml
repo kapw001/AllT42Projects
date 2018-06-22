@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_subheader"
+            android:title="Timesheets">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/weekly"
+                        android:icon="@drawable/weekly"
+                        android:title="Weekly" />
+                    <item
+                        android:id="@+id/mytimesheets"
+                        android:icon="@drawable/mytimesheet"
+                        android:title="My Timesheets" />
+                    <item
+                        android:id="@+id/timesheetstoapprove"
+                        android:icon="@drawable/mytapp"
+                        android:title="Timesheets To Approve" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

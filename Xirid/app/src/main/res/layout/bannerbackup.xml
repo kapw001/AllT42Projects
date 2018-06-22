@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:minHeight="150dp"
+
+    card_view:cardElevation="4dp"
+    card_view:cardCornerRadius="0dp"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPaddingBottom="0dp">
+
+    <com.example.yasar.multirow.ProportionalImageView
+        android:layout_margin="5dp"
+        android:id="@+id/bannerimage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:src="@drawable/f1" />
+    <ImageView
+        android:id="@+id/newimage"
+        android:layout_gravity="end"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/newimage"/>
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"></ProgressBar>
+</android.support.v7.widget.CardView>

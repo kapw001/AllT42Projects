@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "759554569970",
+    "firebase_url": "https://xirid-87c53.firebaseio.com",
+    "project_id": "xirid-87c53",
+    "storage_bucket": "xirid-87c53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759554569970:android:e6efea9f2ba613b9",
+        "android_client_info": {
+          "package_name": "com.example.yasar.multirow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759554569970-9jjbkjh0dlh2sbvfle2r0i4ieh6c16rt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yasar.multirow",
+            "certificate_hash": "C85F0D8E4E7DA449C0BDB0917987FDA0B46E7D16"
+          }
+        },
+        {
+          "client_id": "759554569970-chone6f7mvvqsbjnfuhgv85ib42kn30f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk51XpCnv-FpOVZBvu3iP8blvAXlS6a_0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759554569970-chone6f7mvvqsbjnfuhgv85ib42kn30f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
